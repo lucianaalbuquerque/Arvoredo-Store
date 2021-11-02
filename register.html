@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form method="POST">
+        <!--GENDER AND FAV NOT WORKING -->
+        <p>Your Name: </p><br><input type="text" name="firstname" id="">
+        <p>Birthday: </p><br><input type="date" name="birthday" id="">
+        <p>Gender: </p><br>
+        <input type="radio" name="gender" id="" value="male">Male
+        <input type="radio" name="gender" id="" value="female">Female
+        <input type="radio" name="gender" id="" value="other">Other
+        <p>Favoritos</p><br>
+        <input type="checkbox" name="fav" id="" value="rings">Aneis
+        <input type="checkbox" name="fav" id="" value="necklaces">Colares
+        <input type="checkbox" name="fav" id="" value="brincos">Brincos
+        <input type="checkbox" name="fav" id="" value="bracelete">Bracelete
+        <p>Email</p><input type="email" name="email" id="" required>
+        <p>Password: </p><br><input type="password" name="password" id="" minlength="5">
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
+    
+</body>
+</html>
